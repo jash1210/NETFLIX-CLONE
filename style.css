@@ -1,0 +1,794 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+.netflix{
+    height: 100%;
+    background-color: gray;
+}
+
+.header{
+    display: flex;
+}
+
+
+.back{
+    width: 100%;
+    height: 730px;
+    background-image:url("netflix-background-gs7hjuwvv2g0e9fj.jpg")
+}
+
+.logo{
+    height: 65px;
+    width: 205px;
+    background-size: cover;
+    position: relative;
+    top: 15px;
+    left: 200px;
+}
+
+
+.box{
+    height: 30px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+   
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 950px;
+    bottom: 40px;
+    border-radius: 6px;
+
+}
+
+.box i{
+    background-color: transparent;
+}
+
+.j{
+    border: none;
+    background-color: transparent;
+    color: white;
+    
+}
+
+
+.jj {
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1130px;
+    bottom: 70px;
+    border-radius: 6px;
+}
+
+.jj a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.jj:hover{
+    background-color: rgb(194, 1, 1);
+}
+
+.title{
+    background-color: transparent;
+    width: 100px;
+}
+
+.title h1{
+    background-color: transparent;
+    width: 1000px;
+    font-size: 3rem;
+    color: white;
+    position: relative;
+    left: 350px;
+    top: 150px;
+}
+
+.title2{
+    background-color: transparent;
+    position: relative;
+    top: 170px;
+    left: 530px;
+    width: 1000px;
+}
+
+.title2 p{
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.titlle3{
+    background-color: transparent;
+    width: 1000px;
+}
+
+.titlle3 p{
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    width: 1000px;
+}
+
+.title4{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    top: 233px;
+    left: 450px;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.email{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(215, 212, 212);
+    border-radius: 6px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title5 a{
+    background-color: transparent;
+    color: rgb(228, 217, 217);
+    text-decoration: none;
+}
+
+.title5{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    display: flex   ;
+    align-items: center;
+    position: relative;
+    top: 185px;
+    left: 870px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: space-evenly;
+}
+
+.tisel{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title5:hover{
+    background-color:  rgb(194, 1, 1) ;
+}
+
+.main{
+    height: 550px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+
+.main h1{
+    background-color:black;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    font-size: 3rem;
+}
+
+.main p{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    top: 220px;
+    left: 200px;
+    width: 1000px;
+}
+
+.img-tv{
+    height: 400px;
+    width: 550px;
+    background-size: cover;
+    position: relative;
+    bottom: 50px;
+    left: 800px;
+}
+
+.sec{
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+   
+}
+
+.mobile{
+    width: 700px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    top: 80px;
+    left: 100px;  
+}
+
+.new-box{
+    width: 400px;
+    height: 110px;
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    left: 240px;
+    display: flex;
+    color: white;
+    border-radius: 6px;
+    bottom: 45px;
+}
+
+.box-img{
+    height: 90px;
+   width: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.new-box p{
+    width: 200px;
+    position: relative;
+    left: 85px;
+    background-color: transparent;
+    top: 30px;
+    font-weight: 600;
+}
+
+.new-box p1{
+    width: 200px;
+    position: relative;
+    left: 85px;
+    background-color: transparent;
+    top: 30px;
+}
+
+.fa-solid{
+    font-size: 2rem;
+    background-color: transparent;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+
+.sec h1{
+    width: 600px;
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    bottom: 370px;
+    left: 750px;
+}
+
+.class p{
+    width: 500px;
+    background-color: black;
+    color:  white;
+    position: relative;
+    bottom: 350px;
+    font-size: 1.5rem;
+    left: 750px;
+    height: 80px;
+}
+
+.sec-2{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 30px;
+}
+
+.sec-2 h1{
+    background-color:black;
+    color: white;
+    font-size: 3rem;
+    width: 450px;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+
+.sec-2 p{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 600px;
+    position: relative;
+    top: 220px;
+    left:200px ;
+}
+
+.sec2-img{
+    height: 420px;
+    width: 600px;
+    background-size: cover;
+    background-color: transparent;
+    position: relative;
+    bottom: 60px;
+    left: 750px;
+}
+
+.children{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 40px;
+}
+
+.child-img{
+    height: 500px;
+    width: 600px;
+    background-size: cover;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+    left: 200px;
+}
+
+.children h1{
+    width: 600px;
+    font-size: 3rem;
+    background-color:black;
+    color: white;
+    position: relative;
+    bottom: 300px;
+    left: 850px;
+}
+
+.children p{
+    background-color: black;
+    width: 600px;
+    color: white;
+    position: relative;
+    bottom: 280px;
+    left: 850px;
+    font-size: 1.5rem;
+}
+
+.Frequently{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 50px;
+}
+
+.Frequently h1{
+    width: 1000px;
+    background-color:black;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.qusetion{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+.qusetion a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion i{
+    position: relative;
+    left: 800px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.qusetion2{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 60px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+
+.qusetion2 a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.qusetion2 i{
+    position: relative;
+    left: 610px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion2:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.qusetion3{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 70px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+
+.qusetion3 a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion3 i{
+    position: relative;
+    left: 740px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.qusetion3:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.qusetion4{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 80px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+.qusetion4 a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+.qusetion4 i{
+    position: relative;
+    left: 775px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion4:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.qusetion5{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 90px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+
+.qusetion5 a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion5 i{
+    position: relative;
+    left: 615px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion5:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.qusetion6{
+    height: 70px;
+    width: 1100px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: rgb(69, 66, 66);
+}
+
+.qusetion6 a{
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion6 i{
+    position: relative;
+    left: 685px;
+    top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.qusetion6:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+.Frequently p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.last{
+    background-color: black;
+    height: 50px;
+    width: 350px;
+    border: 1px solid rgb(165, 157, 157);
+    border-radius: 4px;
+    position: relative;
+    top: 90px;
+    left: 180px;
+    color: white;
+}
+
+.footer{
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 60px;
+}
+
+.foot-head{
+    width: 300px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+    left: 200px;
+
+}
+
+.foot-head a{
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.foot-head p{
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.foot-main{
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 130px;
+    right: 200px;
+}
+
+
+
+.a-opp {
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+
+.a-opp a{
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+.n-opp{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+
+.n-opp a{
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+}
+
+.p-opp{
+    background-color: transparent;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+
+.p-opp a{
+    font-size: 1rem;
+    color: white;
+    background-color: transparent;
+    position: relative;
+   
+}
+
+.j-opp{
+    background-color: transparent;
+    position: relative;
+    left: 200px;
+    bottom: 20px;
+}
+
+.j-opp a{
+    background-color: transparent;
+    color: white;
+}
+
+.foot-box{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.foot-box i{
+    background-color: white;
+    left: 500px;
+}
+
+.foot-box p{
+    position: relative;
+    left: 10px;
+    background-color: transparent;
+   
+}
+
+.foot-box select{
+    position: relative;
+    left: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    width: 500px;
+    background-color: white;
+    position: relative;
+    top: 200px;
+}
